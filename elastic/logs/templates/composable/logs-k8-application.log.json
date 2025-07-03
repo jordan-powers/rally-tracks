@@ -1817,11 +1817,7 @@
           }
         },
         "message": {
-          {% if patterned_text_message_field | default(false) is true %}
-          "type": "patterned_text"
-          {% else %}
           "type": "match_only_text"
-          {% endif %}
         },
         "user": {
           "properties": {
