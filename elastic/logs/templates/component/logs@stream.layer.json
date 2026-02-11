@@ -7,6 +7,9 @@
           "mode": "logsdb",
           "codec": "best_compression",
           "mapping": {
+            "source": {
+              "mode": "stored"
+            },
             "total_fields": {
               "ignore_dynamic_beyond_limit": "true"
             },
